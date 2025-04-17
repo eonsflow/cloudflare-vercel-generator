@@ -1,6 +1,6 @@
-
 {
   "version": 2,
+  "rootDirectory": "Vercel_Ultimate_자동설치패키지",
   "builds": [
     { "src": "index.html", "use": "@vercel/static" }
   ],
