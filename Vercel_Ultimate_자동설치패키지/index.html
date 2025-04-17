@@ -276,25 +276,11 @@ async function handleRequest(request) {
     }
   </script>
 
-  <script>
-    
   
-<script>
-function launchInstaller() {
-  const workerUrl = document.getElementById('workerUrl').value.trim();
-  const sheetId = document.getElementById('sheetId').value.trim();
 
-  if (!workerUrl || !sheetId) {
-    alert("모든 항목을 입력해주세요!");
-    return;
-  }
 
-  const gasIndexWebApp = "https://script.google.com/macros/s/AKfycbwjl4SVTXWMxetubJWJtlifrp_KnBRueEMBPLZEsPXOFIKcHNkfVYYGIAhxXKIU3PZ6/exec";
-  const downloadUrl = `${gasIndexWebApp}?sheet=${sheetId}&worker=${encodeURIComponent(workerUrl)}&title=자동설치기&theme=dark&cat=전체&max=100&today=🔥조회수`;
 
-  window.open(downloadUrl, "_blank");
-}
-</script>
+
 
 
 
@@ -314,7 +300,6 @@ function launchInstaller() {
   window.open(downloadUrl, "_blank");
 }
 </script>
-
 
 </body>
 </html>
